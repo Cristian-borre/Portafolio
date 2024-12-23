@@ -22,7 +22,7 @@ const AboutMe = () => {
           </div>
           <div className="lg:w-1/2 mt-8 lg:mt-0 text-center">
             <img
-              src="/images/hero.jpg" // Asegúrate de poner tu foto en la carpeta 'public/images'
+              src={`${process.env.PUBLIC_URL}/images/hero.jpg`} // Asegúrate de poner tu foto en la carpeta 'public/images'
               alt="Foto de perfil"
               className="rounded-full w-48 h-48 mx-auto object-cover"
             />

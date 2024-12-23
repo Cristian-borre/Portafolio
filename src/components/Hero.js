@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className="relative h-screen bg-cover bg-center bg-gray-100" style={{ backgroundImage: "url('/images/hero-background.jpg')" }}>
+    <section className="relative h-screen bg-cover bg-center bg-gray-100" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/hero-background.jpg)` }}>
       <div className="absolute inset-0 bg-black opacity-50"></div> {/* Filtro oscuro sobre la imagen */}
       <div className="relative z-10 flex justify-center items-center h-full text-center text-white px-6 sm:px-10 md:px-14 lg:px-20">
         <div>
