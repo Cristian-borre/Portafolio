@@ -80,7 +80,7 @@ const Contact = () => {
         <div className="text-center mt-12">
           <h3 className="text-2xl font-semibold mb-4">Sígueme en redes sociales</h3>
           <div className="flex justify-center gap-8">
-            <a href="https://github.com/tu-usuario" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-900">
+            <a href="https://github.com/Cristian-borre" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-900">
               <i className="fab fa-github text-3xl sm:text-4xl"></i>
             </a>
             <a href="https://www.linkedin.com/in/cristian-borre" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-900">
